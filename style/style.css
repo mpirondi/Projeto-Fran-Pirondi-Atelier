@@ -168,6 +168,30 @@ main {
     border-radius: 10px;
 }
 
+.fundo-interativo {
+    display: block;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+}
+
+.fundo {
+    position: absolute;
+    margin-right: auto;
+    opacity: 0.3;
+    /* left: -40px; */
+    top: 900px;
+    right: -30px;
+    transform: scaleX(-1);
+}
+
+.fundo img {
+    max-width:360px;
+    max-height:360px;
+    width: auto;
+    height: auto;
+    transform: rotate(30deg);
+}
+
 .produtos-principais{
     width: 80%;
     height: auto;
