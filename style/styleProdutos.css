@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 body {
     font-family: montserrat, sans-serif;
@@ -89,7 +90,73 @@ header img:hover {
     cursor: pointer; 
 }
 
+main {
+    margin: 0 0 200px;
+}
+.titulo p {
+    text-align: center;
+    font-style: none;
+    font-size: 80px;
+    color: #994644;
+    font-family: "Yeseva One", Arial;
+}
 
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 0);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px 0;
+}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.produto img{
+    max-width:350px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 2px dashed #994644;
+}
+
+.contato {
+    width: 60%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: #994644;
+    border-radius: 40px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 300px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contato a {
+    width: 15%;
+    text-decoration: none;
+}
+.contato button {
+    background-color: #E5E0D8;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 15%;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: montserrat, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
 
 footer {
     width: 80%;
